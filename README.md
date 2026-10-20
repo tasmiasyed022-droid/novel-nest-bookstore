@@ -15,8 +15,6 @@ Open `index.html` in your browser or use VS Code Live Server. No build steps or 
 10. contact.html — Contact form
 11. faq.html — FAQs (bonus)
 
-## Future backend integration
-Keep `book_id` stable (b001 etc). Move book records into a database and render cards from a server template or API-driven frontend. Suggested REST endpoints: GET /api/books, GET /api/books/:id, POST /api/auth/login, GET/POST /api/cart, POST /api/orders, POST /api/contact. Use server-side validation, password hashing, authorization, CSRF protection where applicable, and payment provider integrations. The current pages are static: product links open a sample product template; no real login, cart, search, checkout, email submission or payment is implemented. The footer signup form is a demo only.
 
 ## Urdu selection
 Sample listings include Umera Ahmed, Nimra Ahmed, Farhat Ishtiaq, Bano Qudsia, Ashfaq Ahmed, Khadija Mastoor, Ghalib and Faiz. Urdu prices/stock are not verified. Covers are CSS placeholders.
